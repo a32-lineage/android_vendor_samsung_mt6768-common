@@ -1199,7 +1199,6 @@ PRODUCT_PACKAGES += \
     libaudio-ril \
     libpowerhal \
     libsecnativefeature \
-    libsecril-client \
     libsecure_storage \
     libsemnativecarrierfeature \
     libaudioeffectoffload \
@@ -1221,4 +1220,35 @@ PRODUCT_PACKAGES += \
     mediatek-telecom-common \
     mediatek-telephony-base \
     mediatek-telephony-common \
-    android.hardware.neuralnetworks@1.3-service-mtk-gpu
+    android.hardware.cas@1.2-service-lazy \
+    android.hardware.dumpstate@1.1-service-lazy \
+    android.hardware.health@2.1-samsung \
+    android.hardware.neuralnetworks@1.3-service-mtk-gpu \
+    android.hardware.sensors@2.0-multihal \
+    android.hardware.wifi.hostapd \
+    android.hardware.wifi.supplicant \
+    deviceManifest \
+    engmode_manifest \
+    face-default-sec \
+    hyper-default-sec \
+    lights-default-sec \
+    manifest_android.hardware.drm@1.4-service.clearkey \
+    manifest_android.hardware.drm@1.4-service.widevine \
+    manifest_hwcomposer \
+    manifest_vendor.samsung.hardware.security.widevine.keyprov@1.0-service \
+    power-default \
+    sec.android.hardware.nfc@1.2-service \
+    sec_c2_manifest_default0_1_2 \
+    vaultkeeper_manifest \
+    vendor.samsung.hardware.authfw@1.0-manifest \
+    vendor.samsung.hardware.hqm@1.0-manifest \
+    vendor.samsung.hardware.security.hdcp.wifidisplay-default \
+    vendor.samsung.hardware.snap-default \
+    vendor.samsung.hardware.thermal@1.0-manifest \
+    vendor.samsung.hardware.tlc.hdm@1.1-manifest \
+    vendor.samsung.hardware.tlc.iccc@1.0-manifest \
+    vendor.samsung.hardware.tlc.kg@1.1-manifest \
+    vendor.samsung.hardware.vibrator-default \
+    vendor.samsung.hardware.wifi.hostapd \
+    vendor.samsung.hardware.wifi@2.0-service \
+    wsm_manifest
